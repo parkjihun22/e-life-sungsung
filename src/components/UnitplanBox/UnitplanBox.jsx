@@ -7,11 +7,18 @@ import room84A from "../../assets/UnitplanBox/59A.png";
 import room84B from "../../assets/UnitplanBox/59A.png";
 import room114A from "../../assets/UnitplanBox/59A.png";
 import room114B from "../../assets/UnitplanBox/59A.png";
+import room114C from "../../assets/UnitplanBox/59A.png";
 import { useMediaQuery } from "react-responsive";
 
 const contents = [
-    { type: '59㎡', src: room59A },
-    { type: '84㎡', src: room59B },
+    { type: '84A', src: room59A },
+    { type: '84B', src: room59B },
+    { type: '84C', src: room84A },
+    { type: '84D', src: room84B },
+    { type: '105㎡', src: room114A },
+    { type: '113㎡', src: room114B },
+    { type: '125㎡', src: room114C },
+
 
 
 ]

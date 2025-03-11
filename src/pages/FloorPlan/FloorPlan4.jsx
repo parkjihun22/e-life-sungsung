@@ -14,8 +14,14 @@ import page1 from "../../assets/FloorPlan/FloorPlan4/page1.jpg"
 
 const FloorPlan4 = () => {
 	const menuContents = [
-		{ title: "59㎡", url: "/FloorPlan/59A" },
-		{ title: "84㎡", url: "/FloorPlan/59B" },
+		{ title: "84A", url: "/FloorPlan/59A" },
+    { title: "84B", url: "/FloorPlan/59B" },
+    { title: "84C", url: "/FloorPlan/84A" },
+    { title: "84D", url: "/FloorPlan/84B" },
+    { title: "105㎡", url: "/FloorPlan/114A" },
+    { title: "113㎡", url: "/FloorPlan/114B" },
+    { title: "125㎡", url: "/FloorPlan/114C" },
+    { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 	
 	];
 
@@ -60,8 +66,8 @@ const FloorPlan4 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>평택 브레인시티의 눈부신 가치 위에</div>
-				<div>수자인의 새로운 자부심으로 찾아옵니다.</div>
+				<div>천안 쌍용역의 눈부신 가치 위에</div>
+				<div>이편한세상의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}

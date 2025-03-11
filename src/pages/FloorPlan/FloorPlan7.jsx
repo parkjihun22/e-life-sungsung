@@ -10,9 +10,10 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan3/page1.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan6/page1.jpg"
 
-const FloorPlan3 = () => {
+
+const FloorPlan6 = () => {
 	const menuContents = [
 		{ title: "84A", url: "/FloorPlan/59A" },
     { title: "84B", url: "/FloorPlan/59B" },
@@ -22,9 +23,7 @@ const FloorPlan3 = () => {
     { title: "113㎡", url: "/FloorPlan/114B" },
     { title: "125㎡", url: "/FloorPlan/114C" },
     { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
-	
 	];
-
 
 	const [isScroll, setIsScroll] = useState(false);
 	const [isImage2Loaded, setIsImage2Loaded] = useState(false); // 이미지 로딩 상태 추가
@@ -66,7 +65,7 @@ const FloorPlan3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>천안 쌍용역의의 눈부신 가치 위에</div>
+				<div>천안 쌍용역의 눈부신 가치 위에</div>
 				<div>이편한세상의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
@@ -74,7 +73,7 @@ const FloorPlan3 = () => {
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="청약 안내"
+				alt="이편한세상 성성호수공원 128타입 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 
@@ -83,7 +82,7 @@ const FloorPlan3 = () => {
 					※ 상기 이미지는 전시품목과 유상옵션이 포함된 견본주택을 촬영한 것으로 타입별 유상옵션 적용학몽, 특화범위 및 위치는 상이하며 실제 시공시 차이가 있을 수 있습니다.
 
 				</div>
-			
+
 			</div>
 
 			<Footer />
@@ -91,4 +90,4 @@ const FloorPlan3 = () => {
 	)
 }
 
-export default FloorPlan3;
+export default FloorPlan6;

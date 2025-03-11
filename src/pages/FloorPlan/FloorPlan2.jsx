@@ -14,8 +14,13 @@ import page1 from "../../assets/FloorPlan/FloorPlan2/page1.jpg";
 
 const FloorPlan2 = () => {
   const menuContents = [
-    { title: "59㎡", url: "/FloorPlan/59A" },
-    { title: "84㎡", url: "/FloorPlan/59B" },
+    { title: "84A", url: "/FloorPlan/59A" },
+    { title: "84B", url: "/FloorPlan/59B" },
+    { title: "84C", url: "/FloorPlan/84A" },
+    { title: "84D", url: "/FloorPlan/84B" },
+    { title: "105㎡", url: "/FloorPlan/114A" },
+    { title: "113㎡", url: "/FloorPlan/114B" },
+    { title: "125㎡", url: "/FloorPlan/114C" },
     { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
   ];
 
@@ -62,25 +67,25 @@ const FloorPlan2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>평택 브레인시티 수자인 - 59타입 평면도</title>
+        <title>이편한세상 성성호수공원 - 59타입 평면도</title>
         <meta
           name="description"
-          content="84타입의평면 안내 페이지는 평택브레인시티수자인의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+          content="84타입의평면 안내 페이지는 이편한세상 성성호수공원의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
         />
         <meta
           name="keywords"
-          content="브레인시티수자인, 평택브레인시티수자인, 브레인시티수자인모델하우스"
+          content="이편한세상 성성호수공원, 성성동 이편한세상"
         />
         <link rel="canonical" href="https://www.vaaclubs.com/FloorPlan/59B" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="평택 브레인시티 수자인 - 84타입 평면도"
+          content="이편한세상 성성호수공원 - 84타입 평면도"
         />
         <meta
           property="og:description"
-          content="84타입의평면 안내 페이지는 평택브레인시티수자인의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+          content="84타입의평면 안내 페이지는 이편한세상 성성호수공원의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
         />
         <meta
           property="og:image"
@@ -90,17 +95,17 @@ const FloorPlan2 = () => {
           property="og:url"
           content="https://www.vaaclubs.com/FloorPlan/59B"
         />
-        <meta property="og:site_name" content="평택 브레인시티 수자인" />
+        <meta property="og:site_name" content="이편한세상 성성호수공원" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="평택 브레인시티 수자인 - 84타입 평면도"
+          content="이편한세상 성성호수공원 - 84타입 평면도"
         />
         <meta
           name="twitter:description"
-          content="84타입의평면 안내 페이지는 평택브레인시티수자인의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+          content="84타입의평면 안내 페이지는 이편한세상 성성호수공원의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
         />
         <meta
           name="twitter:image"
@@ -117,8 +122,8 @@ const FloorPlan2 = () => {
 						{
 				"@context": "https://schema.org",
 				"@type": "WebPage",
-				"name": "평택 브레인시티 수자인 - 84타입 평면도",
-				"description": "84타입의평면 안내 페이지는 평택브레인시티수자인의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.",
+				"name": "이편한세상 성성호수공원 - 84타입 평면도",
+				"description": "84타입의평면 안내 페이지는 이편한세상 성성호수공원의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.",
 				"url": "https://www.vaaclubs.com/FloorPlan/59B"
 						}
 						`}
@@ -133,18 +138,18 @@ const FloorPlan2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        평택브레인시티수자인 - 84A평면안내
+        이편한세상 성성호수공원 - 84A평면안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        84타입의평면 안내 페이지는 평택브레인시티수자인의 각 아파트 평면도를
+        84타입의평면 안내 페이지는 이편한세상 성성호수공원의 각 아파트 평면도를
         제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활
         스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를
         확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
       </p>
 
       <div className={styles.textBox}>
-        <div>평택 브레인시티의 눈부신 가치 위에</div>
-        <div>수자인의 새로운 자부심으로 찾아옵니다.</div>
+        <div>천안 쌍용역의 눈부신 가치 위에</div>
+        <div>이편한세상의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
@@ -153,7 +158,7 @@ const FloorPlan2 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="청약 안내"
+        alt="이편한세상 성성호수공원 84타입이미지"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

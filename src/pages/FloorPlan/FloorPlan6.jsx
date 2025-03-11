@@ -14,12 +14,14 @@ import page1 from "../../assets/FloorPlan/FloorPlan6/page1.jpg"
 
 const FloorPlan6 = () => {
 	const menuContents = [
-		{ title: "59A", url: "/FloorPlan/59A" },
-		{ title: "59B", url: "/FloorPlan/59B" },
-		{ title: "84A", url: "/FloorPlan/84A" },
-		{ title: "84B", url: "/FloorPlan/84B" },
-		{ title: "119A", url: "/FloorPlan/114A" },
-		{ title: "119B", url: "/FloorPlan/114B" },
+		{ title: "84A", url: "/FloorPlan/59A" },
+    { title: "84B", url: "/FloorPlan/59B" },
+    { title: "84C", url: "/FloorPlan/84A" },
+    { title: "84D", url: "/FloorPlan/84B" },
+    { title: "105㎡", url: "/FloorPlan/114A" },
+    { title: "113㎡", url: "/FloorPlan/114B" },
+    { title: "125㎡", url: "/FloorPlan/114C" },
+    { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 	];
 
 	const [isScroll, setIsScroll] = useState(false);
@@ -62,15 +64,15 @@ const FloorPlan6 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>평택 브레인시티의 눈부신 가치 위에</div>
-				<div>수자인의 새로운 자부심으로 찾아옵니다.</div>
+				<div>천안 쌍용역의 눈부신 가치 위에</div>
+				<div>이편한세상의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="청약 안내"
+				alt="이편한세상 성성호수공원 128타입 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

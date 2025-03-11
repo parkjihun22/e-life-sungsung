@@ -48,7 +48,7 @@ const section3Contents = [
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
     text1: `앞선 직주근접 라이프`,
-    text2: `세계최대규모 규모의 삼성전자 평택캠퍼스<br />
+    text2: `세계최대규모 규모의 삼성전자 천안캠퍼스<br />
             송탄·칠괴 산단,KG모빌리티 등 <br /> 직주근접 프리미엄`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
@@ -58,7 +58,7 @@ const section3Contents = [
     title: "PREMIUM 02",
     text1: `안심학세권 프리미엄`,
     text2: `브레인시티 내 초·중·고 모두 개교예정,<br />
-              카이스트평택캠퍼스 2027년 개교예정`,
+              카이스트천안캠퍼스 2027년 개교예정`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
@@ -66,7 +66,7 @@ const section3Contents = [
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
     text1: `경기도권내 펜타역세권 광역교통망`,
-    text2: `평택지제역 1호선,SRT·KTX·GTX A,C라인<br />
+    text2: `천안지제역 1호선,SRT·KTX·GTX A,C라인<br />
             송탄IC,동부화고속도로(예정) 등`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
@@ -192,16 +192,16 @@ const Main = () => {
           )}
 
           <div className={styles.imageContainer}>
-            <img src={mainImage} className={styles.mainImage} alt="브레인시티수자인-mainimage1" />
+            <img src={mainImage} className={styles.mainImage} alt="이편한세상 성성호수공원-mainimage1" />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
               <div className={styles.mainImageTextSub}>
                 분양가 상한제 적용 <span className={styles.greyText}>착한분양가</span> | 부담을 덜어주는 <span className={styles.greyText}>착한 옵션</span> | 계약금 5%로 내집마련기회 <span className={styles.greyText}>착한조건</span>
               </div>
               <div className={styles.mainImageTitleBox}>
-                <div className={styles.mainImageText}>평택이 기다린 가장 착한 아파트</div>
+                <div className={styles.mainImageText}>천안이 기다린 가장 착한 아파트</div>
                 <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>평택 브레인시티 수자인</div>
+                <div className={styles.mainImageText}>이편한세상 성성호수공원</div>
               </div>
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
@@ -230,8 +230,8 @@ const Main = () => {
                 <div className={styles.text3}>
                   - 브레인시티 중심상업지구 매우인접 <br />
                   - 첨단 아주대학교 종합병원 도보 5분 <br />
-                  - 평택 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권 <br />
-                  - 모두를 누리는 평택 브레인시티 수자인
+                  - 천안 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권 <br />
+                  - 모두를 누리는 이편한세상 성성호수공원
                 </div>
                 <div className={styles.text4}>
                   <a href="https://naver.me/55rUFpYq" target="_black">
@@ -240,7 +240,7 @@ const Main = () => {
                 </div>
               </div>
               <div className={styles.menuBox}>
-                <img src={section1_Image1} alt="브레인시티수자인브랜드소개-image2" />
+                <img src={section1_Image1} alt="이편한세상 성성호수공원 브랜드소개-image2" />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
                 </Link>
@@ -253,17 +253,17 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.title}>
                   소수만 누릴 수 있는<br />
-                  <span>착한가격의 아파트 브레인시티 수자인</span>
+                  <span>착한가격의 아파트<br />이편한세상 성성호수공원</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    브레인시티 수자인이 함께합니다
+                    이편한세상 성성호수공원이 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={section8Img3} alt="브레인시티수자인입지환경소개-image2" />
+              <img src={section8Img3} alt="이편한세상 성성호수공원입지환경소개-image2" />
             </div>
           </div>
 
@@ -274,7 +274,7 @@ const Main = () => {
                   완벽한 생활에서 준비된 미래까지
                 </div>
                 <div className={`${styles.text2} fadeUpRepeat`}>
-                  기대한 모든 프리미엄이<br />평택 브레인시티 수자인에서 펼쳐집니다
+                  기대한 모든 프리미엄이<br />이편한세상 성성호수공원에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -286,7 +286,7 @@ const Main = () => {
                   주거의 품격과 가치를 높이는 <span>특화설계</span><br />안전한 이동을 위한 세심한 <span>단지설계</span><br />편리한 생활을 위한 최적의 <span>공간설계</span>
                 </div>
               </div>
-              <img src={section2_Image1} alt="브레인시티수자인아파트 조감도-image3" />
+              <img src={section2_Image1} alt="이편한세상 성성호수공원아파트 조감도-image3" />
             </div>
           </div>
 
@@ -309,8 +309,8 @@ const Main = () => {
           <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
-                <img src={section4_Image1} alt="브레인시티수자인브랜드소개-image4" />
-                <div className={styles.text1}>평택 브레인시티 수자인</div>
+                <img src={section4_Image1} alt="이편한세상 성성호수공원브랜드소개-image4" />
+                <div className={styles.text1}>이편한세상 성성호수공원</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>당신의 삶, 그 고귀함이 계속되길</div>
               </div>
@@ -329,14 +329,14 @@ const Main = () => {
               <div className={styles.registrationInfo}>
                 <div className={styles.text1}>
                   <p>
-                    평택 브레인시티 수자인
+                    이편한세상 성성호수공원
                     <br />
                     주변이 궁금하시나요?
                   </p>
                 </div>
                 <div className={styles.text2}>
                   <p>
-                    평택 브레인시티 수자인
+                    이편한세상 성성호수공원
                     <br />
                     현장 정보 및 견본주택 정보를 보실 수 있습니다.
                   </p>
@@ -355,7 +355,7 @@ const Main = () => {
               </div>
               {/* 오른쪽 관심고객 등록 폼 영역 */}
               <div className={styles.registrationSection}>
-                <div className={styles.registrationHeader}>브레인시티 수자인</div>
+                <div className={styles.registrationHeader}>이편한세상 성성호수공원</div>
                 <div className={styles.registrationDescription}>
                   방문예약
                   
@@ -395,18 +395,18 @@ const Main = () => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  평택 브레인시티 수자인<br />
+                  이편한세상 성성호수공원<br />
                   <span>견본주택 오시는길</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    평택 브레인시티 수자인이 함께합니다
+                    이편한세상 성성호수공원이 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="브레인시티수자인오시는길안내-image1" />
+              <img src={map1} alt="이편한세상 성성호수공원오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -459,7 +459,7 @@ const Main = () => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-            <img src={mobileImageMain} className={styles.mainImage} alt="브레인시티수자인mobilemain-image1" />
+            <img src={mobileImageMain} className={styles.mainImage} alt="이편한세상 성성호수공원mobilemain-image1" />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
@@ -471,8 +471,8 @@ const Main = () => {
                 <span className={styles.greyText}>착한조건</span>
               </div>
               <div className={styles.mainImageTitleBox1}>
-                <div className={styles.mainImageText1}>평택이 기다린<br /> 가장 착한 아파트</div>
-                <div className={styles.mainImageText5}>브레인시티 수자인</div>
+                <div className={styles.mainImageText1}>천안이 기다린<br /> 가장 착한 아파트</div>
+                <div className={styles.mainImageText5}>이편한세상 성성호수공원</div>
               </div>
             </div>
           </div>
@@ -485,7 +485,7 @@ const Main = () => {
             <div className={styles.text3}>
               - 브레인시티 중심상업지구 가장인접한 입지<br />
               - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분<br />
-              - 평택 지제역 KTX, GTX-A · C 확정 삼성전자 평택캠퍼스, 초등학교, 수변공원<br />
+              - 천안 지제역 KTX, GTX-A · C 확정 삼성전자 천안캠퍼스, 초등학교, 수변공원<br />
               - 모두를 누리는 반도체밸리 주거 타운의 완성
             </div>
             <div className={styles.text4}>
@@ -498,18 +498,18 @@ const Main = () => {
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                평택 브레인시티의 중심으로 사는<br />
+                천안 브레인시티의 중심으로 사는<br />
                 <span>착한 가격의 분상제 아파트</span>
               </div>
               <div className={styles.subTitle}>
                 <div className={styles.textLine}></div>
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해<br />
-                  브레인시티 수자인이 함께합니다
+                  이편한세상 성성호수공원이 함께합니다
                 </div>
               </div>
             </div>
-            <img src={section8Img3} alt="브레인시티수자인mobile입지안내-image1" />
+            <img src={section8Img3} alt="이편한세상 성성호수공원mobile입지안내-image1" />
           </div>
 
           <div className={styles.container3}>
@@ -519,15 +519,15 @@ const Main = () => {
               </div>
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이<br />
-                평택 브레인시티 수자인에서 펼쳐집니다
+                이편한세상 성성호수공원에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른<br />
-                프리미엄 주거라이프를 브레인시티 수자인 모델하우스에서 확인하세요
+                프리미엄 주거라이프를 이편한세상 성성호수공원 모델하우스에서 확인하세요
               </div>
             </div>
-            <img src={section2_Image1} alt="브레인시티수자인mobile조감도-image1" />
+            <img src={section2_Image1} alt="이편한세상 성성호수공원mobile조감도-image1" />
           </div>
 
           <div className={styles.container4}>
@@ -553,7 +553,7 @@ const Main = () => {
 
           {/* 관심고객 등록 섹션 (모바일 버전) */}
           <div className={styles.containerRegistration}>
-            <div className={styles.registrationHeader}>브레인시티 수자인</div>
+            <div className={styles.registrationHeader}>이편한세상 성성호수공원</div>
             <div className={styles.registrationDescription}>
               방문예약
             </div>
@@ -588,7 +588,7 @@ const Main = () => {
 
           <div className={styles.container2}>
             <div>
-              <img src={section1_Image1} alt="브레인시티수자인브랜드소개 mobile-image5" />
+              <img src={section1_Image1} alt="이편한세상 성성호수공원브랜드소개 mobile-image5" />
               <Link to="/Brand/intro" className={styles.btn}>
                 브랜드 소개 {">"}
               </Link>
@@ -597,7 +597,7 @@ const Main = () => {
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
-              <img src={mobilemap1} alt="브레인시티수자인오시는길안내-mobileimage2" />
+              <img src={mobilemap1} alt="이편한세상 성성호수공원오시는길안내-mobileimage2" />
             </div>
           </div> */}
 
