@@ -60,56 +60,56 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>평택 브레인시티 수자인 - 체크포인트</title>
+        <title>이편한세상 성성호수공원 - 체크포인트</title>
         <meta
           name="description"
-          content="평택브레인시티수자인 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
+          content="이편한세상 성성호수공원 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
         />
         <meta
           name="keywords"
-          content="브레인시티수자인, 평택브레인시티수자인, 브레인시티수자인모델하우스"
+          content="이편한세상 성성호수공원, 이편한세상 성성호수공원 모델하우스"
         />
         <link
           rel="canonical"
-          href="https://www.vaaclubs.com/SalesInfo/SubscriptionGuide"
+          href="https://www.3sha-re.com/SalesInfo/SubscriptionGuide"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="평택 브레인시티 수자인 - 체크포인트"
+          content="이편한세상 성성호수공원 - 체크포인트"
         />
         <meta
           property="og:description"
-          content="평택브레인시티수자인 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
+          content="이편한세상 성성호수공원 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
         />
         <meta
           property="og:image"
-          content="https://www.vaaclubs.com/Main1.png"
+          content="https://www.3sha-re.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.vaaclubs.com/SalesInfo/SubscriptionGuide"
+          content="https://www.3sha-re.com/SalesInfo/SubscriptionGuide"
         />
-        <meta property="og:site_name" content="평택 브레인시티 수자인" />
+        <meta property="og:site_name" content="이편한세상 성성호수공원" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="평택 브레인시티 수자인 - 체크포인트"
+          content="이편한세상 성성호수공원 - 체크포인트"
         />
         <meta
           name="twitter:description"
-          content="평택브레인시티수자인 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
+          content="이편한세상 성성호수공원 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
         />
         <meta
           name="twitter:image"
-          content="https://www.vaaclubs.com/Main1.png"
+          content="https://www.3sha-re.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.vaaclubs.com/SalesInfo/SubscriptionGuide"
+          content="https://www.3sha-re.com/SalesInfo/SubscriptionGuide"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -118,9 +118,9 @@ const ComplexGuide1 = () => {
                  {
              "@context": "https://schema.org",
              "@type": "WebPage",
-             "name": "평택 브레인시티 수자인 - 체크포인트",
-             "description": "평택브레인시티수자인 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",
-             "url": "https://www.vaaclubs.com/SalesInfo/SubscriptionGuide"
+             "name": "이편한세상 성성호수공원 - 체크포인트",
+             "description": "이편한세상 성성호수공원 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",
+             "url": "https://www.3sha-re.com/SalesInfo/SubscriptionGuide"
                  }
                  `}
         </script>
@@ -134,17 +134,17 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        평택브레인시티수자인 - 체크포인트
+        이편한세상 성성호수공원 - 체크포인트
       </h1>
       <p className={styles.screenReaderOnly}>
-        평택브레인시티수자인 분양 전 필수 체크포인트를 확인하세요. 청약 자격,
+        이편한세상 성성호수공원 분양 전 필수 체크포인트를 확인하세요. 청약 자격,
         서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을
         정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수
         있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>브레인시티 수자인이 눈부신 가치 위에</div>
+        <div>이편한세상 성성호수공원이 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -154,7 +154,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="브레인시티수자인청약체크포인트-image1"
+        alt="이편한세상 성성호수공원 청약체크포인트-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 
