@@ -125,7 +125,7 @@ const Interior2 = () => {
       <Header isChanged={isScroll} />
       <FixIcon />
 
-      <Bener title="84A인테리어" />
+      <Bener title="인테리어" />
 
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
