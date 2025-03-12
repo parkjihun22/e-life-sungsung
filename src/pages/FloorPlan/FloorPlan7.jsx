@@ -10,12 +10,12 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan6/page1.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan7/page1.jpg";
 
 
-const FloorPlan6 = () => {
+const FloorPlan7 = () => {
 	const menuContents = [
-		{ title: "84A", url: "/FloorPlan/59A" },
+	{ title: "84A", url: "/FloorPlan/59A" },
     { title: "84B", url: "/FloorPlan/59B" },
     { title: "84C", url: "/FloorPlan/84A" },
     { title: "84D", url: "/FloorPlan/84B" },
@@ -73,7 +73,7 @@ const FloorPlan6 = () => {
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="이편한세상 성성호수공원 128타입 이미지"
+				alt="이편한세상 성성호수공원 125타입 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 
@@ -90,4 +90,4 @@ const FloorPlan6 = () => {
 	)
 }
 
-export default FloorPlan6;
+export default FloorPlan7;

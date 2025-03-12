@@ -8,7 +8,9 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
+// import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
+import Ready from "../../components/Ready/Ready";
+
 
 const BusinessGuide2 = () => {
   const menuContents = [
@@ -153,11 +155,13 @@ const BusinessGuide2 = () => {
       </div>
 
       {/* 이미지에 isImageVisible 상태 적용 */}
-      <img
+      {/* <img
         className={`${styles.image4} ${isImageVisible ? styles.visible : ""}`}
         src={page1}
         alt="이편한세상 성성호수공원계약서류안내-image1"
-      />
+      /> */}
+
+      <Ready/>
 
       <Footer />
     </div>

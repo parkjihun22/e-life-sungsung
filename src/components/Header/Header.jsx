@@ -6,7 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 import styles from "./Header.module.scss";
 import SlideMenu from "../../components/SlideMenu/SlideMenu";
-import logoImage from "../../assets/logo/footerlogo.png";
+import logoImage from "../../assets/logo/mainlogo.png";
 import bannerGif from "../../assets/logo/uptool.gif";
 import mainlogowhite from "../../assets/logo/mainlogowhite.jpg";
 
@@ -63,12 +63,12 @@ const menuArray = [
       { subTitle: "84D", subUrl: "/FloorPlan/84B" },
       { subTitle: "105㎡", subUrl: "/FloorPlan/114A" },
       { subTitle: "113㎡", subUrl: "/FloorPlan/114B" },
-      { subTitle: "125㎡", subUrl: "/FloorPlan/114B" },
+      { subTitle: "125㎡", subUrl: "/FloorPlan/114C" },
     ],
   },
   {
     title: "인테리어",
-    subMenu: [
+    subMenu: [  
       { subTitle: "84A", subUrl: "/Interior/59A" },
       { subTitle: "119A", subUrl: "/Interior/84A" },
       { subTitle: "119B", subUrl: "/Interior/84B" },

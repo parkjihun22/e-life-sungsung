@@ -40,17 +40,17 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (text === '푸르지오' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
+    if (text === 'e편한세상' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                     지친 하루를 마치고 가장 나에 가까운 본연의 모습으로 돌아와 누리는 프리미엄입니다.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    브레인시티의 중심
+                    천안8경 성성호수공원, 그 개발의 최중심에서 만나는
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 평택 브레인시티 수자인과 함께합니다.
+                    NO.1 브랜드 이편한세상 성성호수공원과 함께합니다.
                 </div>
             </>
         );
@@ -58,16 +58,16 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    아주대 종합병원이 선택한 새도시!
+                    이편한세상이 선택한 새도시!
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    평택삼성전자캠퍼스 · 지제역 펜타역세권 프리미엄
+                    1,763세대 대단지 프리미엄과 주거 인프라
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                     가장 높은 브랜드의 첫 시작
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    평택 브레인시티 수자인
+                    이편한세상 성성호수공원
                 </div>
             </>
         );
@@ -78,7 +78,7 @@ const contents = (text, isLoaded) => {
                     수준 높은 생활, 첨단신도시내 착한 브랜드 아파트
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    기대하던 모든 프리미엄이 브레인시티 수자인에서 펼쳐집니다
+                    기대하던 모든 프리미엄이 이편한세상 성성호수공원에서 펼쳐집니다
                 </div>
             </>
         );
@@ -89,10 +89,10 @@ const contents = (text, isLoaded) => {
                     주거의 품격과 가치를 높이는 특화설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    편리한 생활을 위한 최적의 공간설계
+                    최상층 스카이커뮤니티에서 호수공원 조망과 함께 누리는 차별화된 여가 생활
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된 평택 브레인시티 수자인, 처음이자 마지막으로 브레인시티에 찾아옵니다
+                    소수에게만 허락된 이편한세상 성성호수공원, 빈도체클러스터 중심에 찾아옵니다
                 </div>
             </>
         );

@@ -14,7 +14,7 @@ import MobilePopup from "../../components/MobilePopup/MobilePopup";
 import Popup from "../../components/Popup/Popup";
 import MobileSectionBox from "../../components/MobileSectionBox/MobileSectionBox";
 import InterestPopup from "../../components/InterestPopup/InterestPopup"; // 새 팝업 컴포넌트 import
-import UrlContainer from "../../components/UrlContainer/UrlContainer";
+// import UrlContainer from "../../components/UrlContainer/UrlContainer";
 
 
 import mainImage from "../../assets/Main/Main1.jpg";
@@ -363,7 +363,7 @@ const Main = () => {
                 {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
                 <form
                   className={styles.registrationForm}
-                  action="https://formspree.io/f/xvgzrdkj"
+                  action="https://formspree.io/f/xpwpzyrz"
                   method="POST"
                 >
                   <label htmlFor="name">이름<span style={{ color: 'red' }}>*</span></label>
@@ -411,7 +411,7 @@ const Main = () => {
           </div> */}
 
           <div className={styles.section5}>
-            <UrlContainer />
+           
             <Footer />
           </div>
 
@@ -560,7 +560,7 @@ const Main = () => {
             {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
             <form
               className={styles.registrationForm}
-              action="https://formspree.io/f/xvgzrdkj"
+              action="https://formspree.io/f/xpwpzyrz"
               method="POST"
             >
               <label htmlFor="name">이름<span style={{ color: 'red' }}>*</span></label>
@@ -602,7 +602,7 @@ const Main = () => {
           </div> */}
 
           <div className={styles.section5}>
-            <UrlContainer />
+           
             <Footer />
             <FixIcon />
           </div>

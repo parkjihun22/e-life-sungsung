@@ -60,6 +60,7 @@
     }
 
     .title {
+        margin-top: 2vw;
         margin-bottom: 1vw;
         font-family: "Noto Sans KR", sans-serif;
         font-optical-sizing: auto;
@@ -72,7 +73,7 @@
         &.showTitle {
             opacity: 1;
             transform: translateY(0);
-            font-size: 3vw; /* 크기 살짝 커지는 효과 */
+            font-size: 2vw; /* 크기 살짝 커지는 효과 */
         }
 
         @media (max-width: 900px) {
