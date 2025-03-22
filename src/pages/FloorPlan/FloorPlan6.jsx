@@ -14,7 +14,7 @@ import page1 from "../../assets/FloorPlan/FloorPlan6/page1.jpg"
 
 const FloorPlan6 = () => {
 	const menuContents = [
-		{ title: "84A", url: "/FloorPlan/59A" },
+	{ title: "84A", url: "/FloorPlan/59A" },
     { title: "84B", url: "/FloorPlan/59B" },
     { title: "84C", url: "/FloorPlan/84A" },
     { title: "84D", url: "/FloorPlan/84B" },
