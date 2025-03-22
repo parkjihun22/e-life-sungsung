@@ -327,7 +327,7 @@ const Main = () => {
   {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
   <div className={styles.pcTitleRow}>
     <div className={styles.leftTitle}>
-      <h2>평택 브레인시티 푸르지오</h2>
+      <h2>이편한세상 성성호수공원</h2>
       <p>방문예약</p>
     </div>
     <div className={styles.rightText}>
@@ -544,7 +544,7 @@ const Main = () => {
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
-  <h2>평택 브레인시티 수자인</h2>
+  <h2>이편한세상 성성호수공원</h2>
   <p className={styles.mobileSubTitle}>방문예약</p>
   <p className={styles.mobileInfoText}>
     방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
